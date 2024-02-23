@@ -18,7 +18,7 @@ const gameName = new String("Prince-DC-game");
 const newString = gameName.substring(0, 4);
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4);
+const anotherString = gameName.slice(-8, 4); ///////////////
 console.log(anotherString);
 
 const newStringOne = "   Batman    "
