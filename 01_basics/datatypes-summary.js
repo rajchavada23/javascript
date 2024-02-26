@@ -5,21 +5,26 @@
 const score = 100
 const scoreValue = 100.3
 
-console.log(typeof scoreValue);
+console.log(typeof scoreValue); // number
 
 const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
+console.log(typeof isLoggedIn); // boolean
+console.log(typeof outsideTemp); // object
+console.log(typeof userEmail); // undefined
+
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
-console.log(anotherId);
+console.log(id === anotherId); // false
+console.log(anotherId); // Symbol(123)
+console.log(typeof anotherId); // Symbol
 
 const bigNumber = 3456543576654356754n
 
-console.log(typeof bigNumber);
+console.log(typeof bigNumber); // BigInt
 
 
 // Reference (Non primitive)
@@ -27,6 +32,7 @@ console.log(typeof bigNumber);
 // Array, Objects, Functions
 
 const heros = ["Shaktiman", "Nagraj", "Doga"]
+
 let myObj = {
     name: "myname",
     age: 20,
@@ -35,6 +41,10 @@ let myObj = {
 const myFunction = function() {
     console.log("Hello World");
 }
+
+console.log(typeof heros); // object
+console.log(typeof myObj); // object
+console.log(typeof myFunction); // funcation
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++
 

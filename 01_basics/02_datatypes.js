@@ -26,4 +26,10 @@ let state;
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object
-console.log(typeof age);
+
+console.log(typeof age); // number
+console.log(typeof 23); // number
+console.log(typeof 54893879451654845n); // bigint
+console.log(typeof ""); // string
+console.log(typeof "Prince"); // string
+console.log(typeof osLoggedIn); // boolean
