@@ -18,8 +18,8 @@ console.log(gameName.indexOf('n')); // 3
 const newString = gameName.substring(0, 4);
 console.log(newString); // Prin
 
-const anotherString = gameName.slice(1, 2);
-console.log('slice==>', anotherString);
+const anotherString = gameName.slice(1, 4);
+console.log('slice==>', anotherString); // rin
 
 const newStringOne = "   Batman   b "
 console.log(newStringOne); //     Batman    
